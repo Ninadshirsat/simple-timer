@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import TimerDisplay from "./TimerDisplay";
-import TimerControls from "./timerControls";
+import TimerDisplay from "./TimerDisplay.jsx";
+import TimerControls from "./TimerControls.jsx";
 
 const Timer = () => {
   const timerRef = useRef(null);
